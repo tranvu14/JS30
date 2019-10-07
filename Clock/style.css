@@ -1,0 +1,53 @@
+html{
+	background: url('background.jpg');
+}
+.hour {
+    width: 100px;
+    height: 16px;
+    top: 50%;
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: 0%;
+    transform: rotate(170deg);
+    left: 50%;
+    transition: all 0.05s;
+}
+.minute {
+    width: 150px;
+    height: 16px;
+    top: 50%;
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: 0%;
+    transform: rotate(180deg);
+    left: 50%;
+    transition: all 0.05s;
+}
+.second {
+    width: 180px;
+    height: 10px;
+    top: 50%;
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: 0%;
+    transform: rotate(6deg);
+    left: 50%;
+    transition: all 0.05s;
+}
+.clock {
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 30%;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+svg {
+    position: absolute;
+    left: 30%;
+    z-index: -1;
+}
