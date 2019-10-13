@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        </meta>
+        <link href="style.css" rel="stylesheet">
+        </link>
+    </head>
+    <body>
+        <div class="player">
+            <video class="player__video viewer" src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+            </video>
+            <div class="player__controls">
+                <div class="progress">
+                    <div class="progress__filled">
+                    </div>
+                </div>
+                <button class="player__button toogle" title="Toggle Play">
+                    ⏵
+                </button>
+                <input class="player__slider" max="1" min="0" name="volume" step="0.05" type="range" value="1">
+                    <input class="player__slider" max="2" min="0.5" name="playbackRate" step="0.1" type="range" value="1">
+                        <button class="player__button" data-skip="-10">
+                            « 10s
+                        </button>
+                        <button class="player__button" data-skip="25">
+                            25s »
+                        </button>
+                    </input>
+                </input>
+            </div>
+        </div>
+    </body>
+    <script src="func.js">
+    </script>
+</html>

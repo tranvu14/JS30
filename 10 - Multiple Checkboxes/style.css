@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    border: 1px solid black;
+}
+p {
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 1px solid black;
+}
+input {
+    margin: auto 0.5rem;
+
+}
+.checkbox {
+    border: 1px solid black;
+}
+body {
+    align-items: center;
+        background-color: #ffc600;
+}
+.list {
+     max-width:400px;
+  margin:50px auto;
+  background:white;
+  border-radius:5px;
+  box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+}

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+            <link href="style.css" rel="stylesheet">
+            </link>
+        </meta>
+    </head>
+    <body>
+        <div class="voiceinator">
+            <h1>
+                The Voiceinator 5000
+            </h1>
+            <select id="voices" name="voice">
+                <option value="">
+                    Select A Voice
+                </option>
+            </select>
+            <label for="rate">
+                Rate:
+            </label>
+            <input max="3" min="0" name="rate" step="0.1" type="range" value="1">
+                <label for="pitch">
+                    Pitch:
+                </label>
+                <input max="2" min="0" name="pitch" step="0.1" type="range">
+                    <textarea name="text">Hello! I love Javascript
+                    </textarea>
+                    <button id="stop">
+                        Stop!
+                    </button>
+                    <button id="speak">
+                        Speak
+                    </button>
+                </input>
+            </input>
+        </div>
+    </body>
+    <script src="func.js">
+    </script>
+</html>
