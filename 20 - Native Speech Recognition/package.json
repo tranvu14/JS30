@@ -1,0 +1,17 @@
+{
+  "name": "gum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "func.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
